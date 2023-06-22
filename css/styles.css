@@ -232,8 +232,8 @@ background: #F4F4FD;
 .port-button:hover,
 .port-button:focus {
     background-color: #404BBF;
-    color: #FFFFFF;
-    border: none;
+    color: white;
+    border: 1px solid transparent;
 }
 .hero-title {
     line-height: 1.07;
@@ -257,6 +257,7 @@ margin-bottom: 72px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--background-color-dark);
+    padding: 24px 0;
 }
 .list .links:hover,
 .list .links:focus {
