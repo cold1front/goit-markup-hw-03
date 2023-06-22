@@ -181,6 +181,9 @@ background-color: var(--background-color-white);
 }
 .staff-item {
     background-color: #FFFFFF;
+    width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
 }
 .list {
     list-style: none;
@@ -237,6 +240,7 @@ line-height: 1.11;
 text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
+margin-bottom: 72px; 
 }
 .links {
     font-family: 'Roboto';
@@ -275,7 +279,8 @@ font-family: 'Roboto';
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--text-color-headline)
+    color: var(--text-color-headline);
+    margin-bottom: 8px;
 }
 
 .text {
@@ -348,4 +353,15 @@ font-family: 'Roboto';
                 display: flex;
                 gap: 24px;
                 list-style: none;
+}
+.team-list {
+            flex-direction: row;
+                display: flex;
+                gap: 24px;
+                list-style: none;
+}
+.team-container {
+    padding: 32px 16px;
+    text-align: center;
+
 }
