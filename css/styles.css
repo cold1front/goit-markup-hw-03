@@ -320,13 +320,6 @@ font-family: 'Roboto';
     display: flex;
     align-items: center;
 }
-.advantages-container {
-    flex-direction: row;
-    display: flex;
-    gap: 24px;
-    list-style: none;
-    
-}
 .li-item {
     width: calc((100% - 3 * 24px) / 4);
 }
