@@ -142,8 +142,8 @@ background-color: var(--background-color-white);
 }
 .footer {
     background: #2E2F42;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .logo-link {
     font-family: 'Raleway', sans-serif;
@@ -370,4 +370,28 @@ font-family: 'Roboto';
 }
 .wawd-item {
     width: calc((100% - 2 * 24px) / 3);
+}
+.footer-link {
+    font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        display: inline-block;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        flex: none;
+        text-decoration: 0;
+        color: #4D5AE5;
+        margin-bottom: 16px;
+}
+.footer-text {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 264px;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
 }
