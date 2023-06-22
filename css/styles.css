@@ -39,6 +39,7 @@ background-color: var(--background-color-white);
 }
 .header-section {
     font-family: "Raleway", "Roboto", sans-serif;
+    border-bottom: 1px solid #e7e9fc;
 }
 .navigation {
     font-family: "Roboto" ;
@@ -281,16 +282,16 @@ font-family: 'Roboto';
 .container {
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .header-container {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    padding: 24px;
+    padding-top: 24px;
     padding-bottom: 24px;
     display: flex;
-    border-bottom: 1px solid #E7E9FC;
 }
 .header-list {
     display: flex;
@@ -313,7 +314,7 @@ font-family: 'Roboto';
 .logo-link {
     display: flex;
     align-items: center;
-    margin-right: 40px;
+    margin-right: 76px
 }
 .studio-dark {
     display: flex;
