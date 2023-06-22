@@ -52,6 +52,11 @@ background-color: var(--background-color-white);
 .header-section {
     font-family: "Raleway", "Roboto", sans-serif;
     border-bottom: 1px solid #e7e9fc;
+        justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+            padding-top: 24px;
+            padding-bottom: 24px;
 }
 .navigation {
     font-family: "Roboto" ;
@@ -359,4 +364,7 @@ font-family: 'Roboto';
     padding: 32px 16px;
     text-align: center;
 
+}
+.header-item {
+    padding: 24px 0;
 }
