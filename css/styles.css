@@ -29,6 +29,18 @@ ol {
     margin: 0;
     padding: 0;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 body {
 color: var(--text-color-main);
 font-family: 'Roboto', sans-serif;
@@ -276,8 +288,9 @@ font-family: 'Roboto';
     font-weight: 400;
 }
 .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 .container {
     max-width: 1158px;
